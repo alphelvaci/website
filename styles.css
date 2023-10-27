@@ -17,9 +17,11 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 header {
+    display: flex;
     padding-top: 42px;
     padding-left: 68px;
     padding-right: 68px;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -27,5 +29,22 @@ header h1 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 28px;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    font-size: 28px;
+    margin-left: 22px;
+}
+
+header nav a.leftmost {
+    margin-left: 0px;
+}
+
+header nav a.inactive {
+    text-decoration: none;
 }
 
