@@ -13,6 +13,8 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
 
         <link rel="stylesheet" href="/styles.css" />
+
+        <script src="/script.js" defer></script>
     </head>
     <body>
         <header>
@@ -22,5 +24,18 @@
                 <a class="active" href="/blog">blog</a>
             </nav>
         </header>
+        <footer>
+            <div class="color-picker">
+                <button class="hover-area first" onclick="swapBackgroundColorsWithBody(this.querySelector('.dot'))">
+                    <div class="dot"></div>
+                </button>
+                <button class="hover-area second" onclick="swapBackgroundColorsWithBody(this.querySelector('.dot'))">
+                    <div class="dot"></div>
+                </button>
+                <button class="hover-area third" onclick="swapBackgroundColorsWithBody(this.querySelector('.dot'))">
+                    <div class="dot"></div>
+                </button>
+            </div>
+        </footer>
     </body>
 </html>
