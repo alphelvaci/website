@@ -19,8 +19,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 header {
     display: flex;
     padding-top: 42px;
-    padding-left: 68px;
-    padding-right: 68px;
+    padding-left: 60px;
+    padding-right: 60px;
     justify-content: space-between;
 }
 
