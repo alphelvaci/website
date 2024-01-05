@@ -1,4 +1,4 @@
-Title: HEY
+HEY
 
 this is the second test
 
