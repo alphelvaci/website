@@ -3,8 +3,10 @@
 {{> head}}
     <body lang="en-US">
         {{> header}}
-        {{#allEntries}}
-            <a href="{{{url}}}">{{title}}</a><br>
-        {{/allEntries}}
+        <div class="entries">
+            {{#allEntries}}
+                <a href="{{{url}}}">{{title}}</a><br>
+            {{/allEntries}}
+        </div>
     </body>
 </html>

@@ -13,7 +13,7 @@ body {
   background-color: #000000;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, code {
+h1, h2, h3, h4, h5, h6, p, a {
   font-family: Monaco, Monego, monospace;
   font-weight: normal;
   color: #FFFFFF;
@@ -55,4 +55,8 @@ h1.error-404 {
   font-size: 180px;
   margin-top: 160px;
   text-align: center;
+}
+
+div.entries {
+  margin-left: 80px;
 }
