@@ -10,6 +10,14 @@
 }
 
 @font-face{
+  font-family: 'SF Compact';
+  src: url("/fonts/SFCompact.woff2"),
+  url("/fonts/SFCompact.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
   font-family: 'SF Compact Text';
   src: url("/fonts/SFCompactText-Regular.woff2"),
   url("/fonts/SFCompactText-Regular.woff");
