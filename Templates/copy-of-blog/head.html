@@ -1,0 +1,44 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>{{> title}}</title>
+
+  <link rel="alternate" type="application/rss+xml" title="{{title}}" href="{{{blogURL}}}{{{feedURL}}}" />
+
+  {{#avatar}}
+  <link rel="icon" href="{{{avatar}}}" type="image/x-icon" />
+  {{/avatar}}
+
+  <link rel="stylesheet" href="{{{cssURL}}}" />
+
+  <meta name="description" content="{{> description}}" />
+  
+
+  <title>alphelvaci</title>
+
+  <meta charset="utf-8" />
+  <meta name="author" content="Alp Helvacı" />
+  <meta name="description" content="Personal website of Alp" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/icons/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script src="/script.js" defer></script>
+
+  <!-- Meta tags for sharing on social media platforms -->
+  <meta property="og:title" content="{{> title}}" />
+  <meta property="og:description" content="{{> description}}" />
+  <meta property="og:type" content="website" />
+  {{#entry}}
+  {{#thumbnail.large}}
+  <meta property="og:image" content="{{{url}}}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  {{/thumbnail.large}}
+  <meta property="og:url" content="{{{absoluteURL}}}" />
+  {{/entry}}
+</head>
