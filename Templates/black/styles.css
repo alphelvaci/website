@@ -28,14 +28,14 @@ header {
 }
 
 header h1 {
-  font-family: 'Monaco', 'Monego', monospace;
   display: inline-block;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 28px;
 }
 
 header h1 a {
+  font-family: 'Monaco', 'Monego', monospace;
+  font-size: 28px;
   text-decoration: none;
 }
 
