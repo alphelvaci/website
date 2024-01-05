@@ -3,8 +3,10 @@
 {{> head}}
     <body lang="en-US">
         {{> header}}
-        <h3>{{entry.title}}</h3>
-        {{{entry.html}}}
+        <div class="entry">
+            <h2>{{entry.title}}</h2>
+            {{{entry.html}}}
+        </div>
         {{> footer}}
     </body>
 </html>

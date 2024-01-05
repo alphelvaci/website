@@ -44,7 +44,7 @@ h1.error-404 {
   text-align: center;
 }
 
-div.entries {
+div.entries div.entry {
   margin-top: 40px;
   margin-left: 60px;
 }
