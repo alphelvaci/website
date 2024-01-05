@@ -1,0 +1,104 @@
+/* Inserts the CSS required by various settings on the services page of the dashboard */
+{{{appCSS}}}
+
+@font-face{
+  font-family: Monego;
+  src: url("/fonts/monego-regular-webfont.woff2"),
+       url("/fonts/monego-regular-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: Monaco, Monego, monospace;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+header {
+  display: flex;
+  padding-top: 42px;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: space-between;
+}
+
+header h1 {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header nav a {
+  font-size: 28px;
+  margin-left: 22px;
+}
+
+header nav a.leftmost {
+  margin-left: 0px;
+}
+
+header nav a.inactive {
+  text-decoration: none;
+}
+
+h1.error-404 {
+  font-size: 180px;
+  margin-top: 160px;
+  text-align: center;
+}
+
+.color-picker {
+  font-size: 0px;
+  position: fixed;
+  left: 63px;
+  bottom: -45px;
+}
+
+.color-picker button.hover-area {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-left: 5px;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.color-picker button.hover-area.first {
+  margin-left: 0px;
+}
+
+.color-picker button.hover-area:hover {
+  position: relative;
+  top: -10px;
+}
+
+.color-picker button.hover-area .dot {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+
+.color-picker button.hover-area.first .dot {
+  margin-left: 0px;
+  background-color: #FFFFFF;
+}
+
+.color-picker button.hover-area.second .dot {
+  background-color: #323232;
+}
+
+.color-picker button.hover-area.third .dot {
+  background-color: #0A84FF;
+}
