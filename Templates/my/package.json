@@ -1,5 +1,5 @@
 {
-  "name": "Copy of Blog",
+  "name": "my",
   "locals": {
     "max_width": 700,
     "page_size": 6,
@@ -53,7 +53,7 @@
       "font_size": 18,
       "styles": ""
     },
-    "index_layout": "post_in_full",
+    "index_layout": "titles",
     "index_layout_options": [
       "titles",
       "title_and_summary",
