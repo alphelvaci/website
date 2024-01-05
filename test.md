@@ -1,4 +1,4 @@
-``python
+```python
 def hey():
     print(hey)
 ```
