@@ -42,6 +42,7 @@ h1.error-404 {
 }
 
 div.entries, div.entry {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 60px;
+  max-width: 600px;
 }
