@@ -1,6 +1,6 @@
 {
   "name": "my",
-  "enabled": false,
+  "enabled": true,
   "views": {
     "entries.html": {
       "partials": {

@@ -69,7 +69,7 @@
     ],
     "demo_folder": "david"
   },
-  "enabled": true,
+  "enabled": false,
   "views": {
     "search.html": {
       "partials": {
