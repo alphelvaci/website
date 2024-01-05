@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
-    {{#allEntries}}
-    <a href="{{{url}}}">{{title}}</a><br>
-    {{/allEntries}}
+    <head>
+        {{> head}}
+    </head>
+    <body>
+        <header>
+            {{> header}}
+        </header>
+        {{#allEntries}}
+        <a href="{{{url}}}">{{title}}</a><br>
+        {{/allEntries}}
+    </body>
 </html>
