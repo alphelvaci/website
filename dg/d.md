@@ -1,1 +1,0 @@
-[d](https://www.google.com/)
