@@ -13,16 +13,4 @@
   <link rel="stylesheet" href="/styles.css" />
 
   <script src="/script.js" defer></script>
-
-  <!-- Meta tags for sharing on social media platforms -->
-  <meta property="og:title" content="{{> title}}" />
-  <meta property="og:description" content="{{> description}}" />
-  <meta property="og:type" content="website" />
-  {{#entry}}
-  {{#thumbnail.large}}
-  <meta property="og:image" content="{{{url}}}" />
-  <meta name="twitter:card" content="summary_large_image" />
-  {{/thumbnail.large}}
-  <meta property="og:url" content="{{{absoluteURL}}}" />
-  {{/entry}}
 </head>

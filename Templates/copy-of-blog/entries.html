@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 {{> head}}
-
-<body class="navigation-location-{{navigation_location}}">
-    {{> header}}
-    <div class="container">
-        <div class="main">
-            {{#allEntries}}
-            <a href="{{{url}}}">{{title}}</a><br>
-            {{/allEntries}}
-            {{> footer}}
+    <body lang="en-US">
+        {{> header}}
+        <div class="container">
+            <div class="main">
+                {{#allEntries}}
+                    <a href="{{{url}}}">{{title}}</a><br>
+                {{/allEntries}}
+                {{> footer}}
+            </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
