@@ -1,4 +1,16 @@
 {
     "name": "my",
-    "enabled": true
+    "enabled": true,
+    "views": {
+        "entries.html": {
+            "partials": {
+                "title": "{{{title}}}"
+            }
+        },
+        "entry.html": {
+            "partials": {
+                "title": "{{{entry.title}}} - {{{title}}}"
+            }
+        }
+    }
 }
