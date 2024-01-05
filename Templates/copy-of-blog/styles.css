@@ -38,10 +38,8 @@ header h1 a {
   text-decoration: none;
 }
 
-h1.error-404 {
-  font-size: 100px;
-  margin-top: 160px;
-  text-align: center;
+h2.error-404 {
+  margin-left: 60px;
 }
 
 div.entries, div.entry {
