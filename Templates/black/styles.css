@@ -2,9 +2,17 @@
 {{{appCSS}}}
 
 @font-face{
-  font-family: Monego;
+  font-family: 'Monego';
   src: url("/fonts/monego-regular-webfont.woff2"),
        url("/fonts/monego-regular-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'SF Compact';
+  src: url("/fonts/SFCompactText-Regular.woff2"),
+  url("/fonts/SFCompactText-Regular.woff");
   font-weight: normal;
   font-style: normal;
 }
